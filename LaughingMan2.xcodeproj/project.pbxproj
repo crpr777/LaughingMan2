@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		94CE754E2DA76A9C0062960B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94CE75372DA76A9B0062960B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94CE753E2DA76A9B0062960B;
+			remoteInfo = LaughingMan2;
+		};
+		94CE75582DA76A9C0062960B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94CE75372DA76A9B0062960B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94CE753E2DA76A9B0062960B;
+			remoteInfo = LaughingMan2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		94CE753F2DA76A9B0062960B /* LaughingMan2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LaughingMan2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		94CE754D2DA76A9C0062960B /* LaughingMan2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LaughingMan2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		94CE75572DA76A9C0062960B /* LaughingMan2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LaughingMan2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		94CE75412DA76A9B0062960B /* LaughingMan2 */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LaughingMan2;
+			sourceTree = "<group>";
+		};
+		94CE75502DA76A9C0062960B /* LaughingMan2Tests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LaughingMan2Tests;
+			sourceTree = "<group>";
+		};
+		94CE755A2DA76A9C0062960B /* LaughingMan2UITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LaughingMan2UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94CE753C2DA76A9B0062960B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94CE754A2DA76A9C0062960B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94CE75542DA76A9C0062960B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		94CE75362DA76A9B0062960B = {
+			isa = PBXGroup;
+			children = (
+				94CE75412DA76A9B0062960B /* LaughingMan2 */,
+				94CE75502DA76A9C0062960B /* LaughingMan2Tests */,
+				94CE755A2DA76A9C0062960B /* LaughingMan2UITests */,
+				94CE75402DA76A9B0062960B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		94CE75402DA76A9B0062960B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94CE753F2DA76A9B0062960B /* LaughingMan2.app */,
+				94CE754D2DA76A9C0062960B /* LaughingMan2Tests.xctest */,
+				94CE75572DA76A9C0062960B /* LaughingMan2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		94CE753E2DA76A9B0062960B /* LaughingMan2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94CE75612DA76A9C0062960B /* Build configuration list for PBXNativeTarget "LaughingMan2" */;
+			buildPhases = (
+				94CE753B2DA76A9B0062960B /* Sources */,
+				94CE753C2DA76A9B0062960B /* Frameworks */,
+				94CE753D2DA76A9B0062960B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				94CE75412DA76A9B0062960B /* LaughingMan2 */,
+			);
+			name = LaughingMan2;
+			packageProductDependencies = (
+			);
+			productName = LaughingMan2;
+			productReference = 94CE753F2DA76A9B0062960B /* LaughingMan2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		94CE754C2DA76A9C0062960B /* LaughingMan2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94CE75642DA76A9C0062960B /* Build configuration list for PBXNativeTarget "LaughingMan2Tests" */;
+			buildPhases = (
+				94CE75492DA76A9C0062960B /* Sources */,
+				94CE754A2DA76A9C0062960B /* Frameworks */,
+				94CE754B2DA76A9C0062960B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94CE754F2DA76A9C0062960B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				94CE75502DA76A9C0062960B /* LaughingMan2Tests */,
+			);
+			name = LaughingMan2Tests;
+			packageProductDependencies = (
+			);
+			productName = LaughingMan2Tests;
+			productReference = 94CE754D2DA76A9C0062960B /* LaughingMan2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		94CE75562DA76A9C0062960B /* LaughingMan2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94CE75672DA76A9C0062960B /* Build configuration list for PBXNativeTarget "LaughingMan2UITests" */;
+			buildPhases = (
+				94CE75532DA76A9C0062960B /* Sources */,
+				94CE75542DA76A9C0062960B /* Frameworks */,
+				94CE75552DA76A9C0062960B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94CE75592DA76A9C0062960B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				94CE755A2DA76A9C0062960B /* LaughingMan2UITests */,
+			);
+			name = LaughingMan2UITests;
+			packageProductDependencies = (
+			);
+			productName = LaughingMan2UITests;
+			productReference = 94CE75572DA76A9C0062960B /* LaughingMan2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94CE75372DA76A9B0062960B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					94CE753E2DA76A9B0062960B = {
+						CreatedOnToolsVersion = 16.3;
+						LastSwiftMigration = 1630;
+					};
+					94CE754C2DA76A9C0062960B = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 94CE753E2DA76A9B0062960B;
+					};
+					94CE75562DA76A9C0062960B = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 94CE753E2DA76A9B0062960B;
+					};
+				};
+			};
+			buildConfigurationList = 94CE753A2DA76A9B0062960B /* Build configuration list for PBXProject "LaughingMan2" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 94CE75362DA76A9B0062960B;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 94CE75402DA76A9B0062960B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94CE753E2DA76A9B0062960B /* LaughingMan2 */,
+				94CE754C2DA76A9C0062960B /* LaughingMan2Tests */,
+				94CE75562DA76A9C0062960B /* LaughingMan2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		94CE753D2DA76A9B0062960B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94CE754B2DA76A9C0062960B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94CE75552DA76A9C0062960B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94CE753B2DA76A9B0062960B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94CE75492DA76A9C0062960B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94CE75532DA76A9C0062960B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		94CE754F2DA76A9C0062960B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94CE753E2DA76A9B0062960B /* LaughingMan2 */;
+			targetProxy = 94CE754E2DA76A9C0062960B /* PBXContainerItemProxy */;
+		};
+		94CE75592DA76A9C0062960B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94CE753E2DA76A9B0062960B /* LaughingMan2 */;
+			targetProxy = 94CE75582DA76A9C0062960B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		94CE755F2DA76A9C0062960B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = LaughingMan2/Info.plist;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		94CE75602DA76A9C0062960B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = LaughingMan2/Info.plist;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		94CE75622DA76A9C0062960B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = LaughingMan2/LaughingMan2.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TyrellCorp.LaughingMan2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		94CE75632DA76A9C0062960B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = LaughingMan2/LaughingMan2.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TyrellCorp.LaughingMan2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		94CE75652DA76A9C0062960B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TyrellCorp.LaughingMan2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LaughingMan2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LaughingMan2";
+			};
+			name = Debug;
+		};
+		94CE75662DA76A9C0062960B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TyrellCorp.LaughingMan2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LaughingMan2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LaughingMan2";
+			};
+			name = Release;
+		};
+		94CE75682DA76A9C0062960B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TyrellCorp.LaughingMan2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = LaughingMan2;
+			};
+			name = Debug;
+		};
+		94CE75692DA76A9C0062960B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = TyrellCorp.LaughingMan2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = LaughingMan2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		94CE753A2DA76A9B0062960B /* Build configuration list for PBXProject "LaughingMan2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94CE755F2DA76A9C0062960B /* Debug */,
+				94CE75602DA76A9C0062960B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94CE75612DA76A9C0062960B /* Build configuration list for PBXNativeTarget "LaughingMan2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94CE75622DA76A9C0062960B /* Debug */,
+				94CE75632DA76A9C0062960B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94CE75642DA76A9C0062960B /* Build configuration list for PBXNativeTarget "LaughingMan2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94CE75652DA76A9C0062960B /* Debug */,
+				94CE75662DA76A9C0062960B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94CE75672DA76A9C0062960B /* Build configuration list for PBXNativeTarget "LaughingMan2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94CE75682DA76A9C0062960B /* Debug */,
+				94CE75692DA76A9C0062960B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 94CE75372DA76A9B0062960B /* Project object */;
+}
